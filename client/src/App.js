@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import LoginButton from "./LoginButton";
-import Auth0Provider from "./Auth0Provider"
 
 
 function App() {
@@ -15,10 +14,10 @@ function App() {
   return (
     <div className="App">
       <h1>Page Count: {count}</h1>
-      <Auth0Provider>
+
 
       <LoginButton/>
-      </Auth0Provider>
+
       
 
     </div>
