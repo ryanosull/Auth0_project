@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import LoginButton from "./LoginButton";
+import LoginButton from "./components/LoginButton";
 
 
 function App() {
