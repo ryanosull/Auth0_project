@@ -29,8 +29,8 @@
 
   overflow: hidden;
   z-index: 1;
-  box-shadow: 2px 2px 4px #efefef,
-              -2px -2px 4px #efefef;
+  box-shadow: 1px 1px 10px #efefef,
+              -1px -1px 10px #efefef;
 
 
 }
@@ -43,7 +43,7 @@ button::before {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient(to right, #92078d 0%, #dee21f 100%);
+  background-image: linear-gradient(to right, #b10e9e 0%, #dee21f 100%);
   transition: .5s ease;
   display: block;
   z-index: -1;
