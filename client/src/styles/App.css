@@ -13,3 +13,10 @@
 /* .App:hover {
     cursor: pointer;
 } */
+
+#loginButton {
+    font-family: 'Bungee Shade', sans-serif;
+    font-size: 40px;
+    text-align: center;
+
+}
