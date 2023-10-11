@@ -1,6 +1,7 @@
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import LoginButton from "./components/LoginButton";
 import LogoutButton from "./components/LogoutButton";
+import './styles/App.css'
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
       {/* <h1>Page Count: {count}</h1> */}
 
 
-      <LoginButton />
+      <LoginButton  />
       <LogoutButton />
 
       
