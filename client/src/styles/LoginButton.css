@@ -10,7 +10,7 @@
 #loginButton {
 
   color: #efefef;
-  background-color: #c443b5;
+  background-color: #b10e9e;
   /* font-family: 'Bungee Shade', sans-serif; */
 
   height: 100px;
@@ -43,7 +43,7 @@ button::before {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient(to right, #92078d 0%, #22ad06 100%);
+  background-image: linear-gradient(to right, #92078d 0%, #dee21f 100%);
   transition: .5s ease;
   display: block;
   z-index: -1;
