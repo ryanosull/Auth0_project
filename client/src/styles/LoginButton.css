@@ -1,11 +1,6 @@
-
-
-
 #loginButton {
 
   color: #efefef;
-  /* background-color: #b10e9e; */
-  /* font-family: 'Bungee Shade', sans-serif; */
   background-color: black;
   height: 100px;
   width: 250px;
@@ -25,8 +20,6 @@
   z-index: 1;
   box-shadow: 1px 1px 10px #efefef,
               -1px -1px 10px #efefef;
-
-
 }
 
 button::before {
@@ -46,7 +39,6 @@ button::before {
 button:hover::before {
   width: 250px;
 }
-
 
 #loginButton:hover {
   cursor: pointer;
