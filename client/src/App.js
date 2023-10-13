@@ -2,6 +2,7 @@
 import LoginButton from "./components/LoginButton";
 import LogoutButton from "./components/LogoutButton";
 import './styles/App.css'
+import Profile from "./components/Profile";
 
 
 function App() {
@@ -17,13 +18,10 @@ function App() {
   return (
     <div className="App">
       {/* <h1>Page Count: {count}</h1> */}
-
-
+      <h1 id="header">Auth0_project</h1>
+      <Profile/>
       <LoginButton  />
       <LogoutButton />
-
-      
-
     </div>
   );
 }
