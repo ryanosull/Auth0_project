@@ -21,9 +21,15 @@ function App() {
     <div className="App">
       {/* <h1>Page Count: {count}</h1> */}
       <h1 id="header">Auth0_project</h1>
-      <Profile/>
-      <LoginButton  />
-      <LogoutButton />
+      {error && <h2>User authentication error</h2>}
+      {!error && isLoading && <h2>Loading...</h2>}
+      {!error && !isLoading && (
+        <>
+        <Profile/>
+        <LoginButton  />
+        <LogoutButton />
+        </>
+      )}
     </div>
   );
 }
