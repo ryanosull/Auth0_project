@@ -25,8 +25,8 @@ function App() {
       {!error && isLoading && <h2>Loading...</h2>}
       {!error && !isLoading && (
         <>
-        <Profile/>
         <LoginButton  />
+        <Profile/>
         <LogoutButton />
         </>
       )}
