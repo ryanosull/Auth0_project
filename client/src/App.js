@@ -1,4 +1,3 @@
-// import { useState, useEffect } from "react";
 import LoginButton from "./components/LoginButton";
 import LogoutButton from "./components/LogoutButton";
 import './styles/App.css'
@@ -11,9 +10,8 @@ function App() {
 
   return (
     <div className="App">
-      {/* <h1>Page Count: {count}</h1> */}
       <h1 id="header">Auth0_project</h1>
-      {error && <h2>User authentication error</h2>}
+      {error && <h2>User authentication error</h2>}   
       {!error && isLoading && <h2>Loading...</h2>}
       {!error && !isLoading && (
         <>
