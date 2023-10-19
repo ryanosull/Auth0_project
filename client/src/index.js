@@ -12,9 +12,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <Auth0Provider //entire app wrapped with 'Auth0Provider' component
-      domain={domain}
-      clientId={clientId}
+    <Auth0Provider //App wrapped with 'Auth0Provider' component
+      domain={domain} // from .env
+      clientId={clientId} // from .env
       authorizationParams={{
         redirect_uri: window.location.origin //user redirect after authentication 
         }}
