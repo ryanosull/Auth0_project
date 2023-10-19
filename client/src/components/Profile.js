@@ -5,7 +5,7 @@ import './../styles/Profile.css'
 
 const Profile = () => {
 
-    const { user, isAuthenticated } = useAuth0();
+    const { user, isAuthenticated } = useAuth0(); //imported from Auth0 / useAuth0 hook
 
     return (
         isAuthenticated && (
