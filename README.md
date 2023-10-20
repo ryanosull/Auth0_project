@@ -7,6 +7,8 @@ For now, this is only the frontend implementation. Will send info to backend nex
 
 ![another screenshot](./assets/SSOscreenshot.png)
 
+![and another screenshot](./assets/logoutscreenshot.png)
+
 <!-- still need logout screenshot with user info -->
 
 ## Styles
